@@ -1,0 +1,17 @@
+{
+    "name": "yx/dot",
+    "description": "dd",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Yx\\Dot\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yx\\Dot\\Providers\\LaravelServiceProvider"
+            ]
+        }
+    }
+}
